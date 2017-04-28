@@ -1,4 +1,4 @@
-# _Epicodus Track Suggestor_
+# _Epicodus Track Suggester_
 
 #### Week 2 Independent Project - Intro to Programming
 
