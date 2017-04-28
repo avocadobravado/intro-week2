@@ -15,7 +15,7 @@
 
 OR...
 
-* View on gh-pages at `http://avocadobravado.github.io/intro-week2`
+* View on gh-pages at [http://avocadobravado.github.io/intro-week2](http://avocadobravado.github.io/intro-week2)
 
 ## How to Use
 
@@ -48,7 +48,7 @@ OR...
 
 ## Acknowledgments
 
-* Copy from site taken from `http://epicodus.com`
+* Copy from site taken from [http://epicodus.com](http://epicodus.com)
 
 ## License
 
