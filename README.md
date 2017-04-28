@@ -24,23 +24,34 @@ OR...
 
 ## Known Bugs
 
-Form can only be taken once, if you'd like to take it again, refresh the page.
+* Form can only be taken once, if you'd like to take it again, refresh the page
+* Navbar content spans the entire width of viewport on smaller screens
 
 ## Support and contact details
 
-Feel free to reach out with suggestions at rosesponseller@gmail.com
+* Feel free to reach out with suggestions at rosesponseller@gmail.com
 
 ## Technologies Used
 
 **Main Languages used:**
+
 * HTML
 * CSS
 * JavaScript
 * jQuery
 
 **Other Technologies:**
+
 * Bootstrap
 * Google Fonts
 * Font Awesome
+
+## Acknowledgments
+
+* Copy from site taken from `http://epicodus.com`
+
+## License
+
+This project is licensed under the MIT License
 
 **_Rose Sponseller_** Copyright (c) 2017
