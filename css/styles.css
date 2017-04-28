@@ -15,6 +15,16 @@ a {
   color: #00b3b4;
 }
 
+a:hover {
+  font-weight: bold;
+  color: #00b3b4;
+}
+
+a:visited {
+  font-weight: bold;
+  color: #00b3b4;
+}
+
 h2, h3 {
   color: #00b3b4;
 }
@@ -22,7 +32,7 @@ h2, h3 {
 .jumbotron, .bodyContent {
   width: 80%;
   border-radius: 5px;
-  box-shadow: 1px 1px 3px #c0c0c0;
+  box-shadow: 1px 1px 3px #9a9a9a;
 }
 
 /* Nav */
@@ -46,7 +56,7 @@ h2, h3 {
 /* Jumbotron */
 
 .jumbotron {
-  padding: 2% 5%;
+  padding: 2% 3%;
   margin-top: -1%;
   margin-left: 10%;
   background-color: #fafafa;
@@ -60,53 +70,32 @@ h2, h3 {
   font-size: 13em;
   text-align: center;
   text-shadow: 1px 1px 1px #9a9a9a;
-  border: 1px solid black;
 }
 
 .jumbotron p {
   font-size: 1.4em;
 }
 
-.leftJumbotron {
-  border: 1px solid black;
-}
-
-.rightJumbotron {
-  border: 1px solid black;
-}
-
 /* Form & Info */
 
-.formContent, .infoContent {
-  padding: 1% 2%;
-}
-
 .bodyContent {
-    background-color: white;
+    background-color: #fafafa;;
     margin-bottom: 3%;
     padding: 1% 2%;
     border-radius: 5px;
 }
 
+.formContent, .infoContent {
+  padding: 1% 2%;
+}
+
+
 /* Form - Left column */
-
-.form-group {
-  border: 1px solid black;
-}
-
-.formContent {
-  border: 1px solid black;
-}
 
 /* Info section - Initial content */
 
-.infoContent {
-  border: 1px solid black;
-}
-
 .infoContent p {
   font-size: 1.32em;
-  border: 1px solid black;
 }
 
 /* Info - Results */
