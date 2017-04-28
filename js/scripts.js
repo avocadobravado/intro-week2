@@ -38,10 +38,3 @@ $(document).ready(function() {
     }
   });
 });
-
-
-//var results =
-
-// $("#initial-showing").hide();
-// $("#ruby").fadeIn(1000);
-// $("#design").fadeIn(1000);
