@@ -1,9 +1,4 @@
 /* Global */
-
-/* the blue is 00b3b4
-the gray is f2f2f2
-darker gray is #4a4a4a
-*/
 body {
   background-color: #fff;
   color: #4a4a4a;
@@ -136,4 +131,9 @@ h2, h3 {
 
 #frontEnd, #backEnd, #mobileDev, #gameDevelopment {
   display: none;
+}
+
+.darkerText {
+  text-align: right;
+  color: #4a4a4a
 }
