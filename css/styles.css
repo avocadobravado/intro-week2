@@ -60,7 +60,7 @@ body {
   border: 1px solid black;
 }
 
-/* Info section - Right column, content that initially displays */
+/* Info section - Initial content */
 
 .infoContent {
   border: 1px solid black;
@@ -69,4 +69,10 @@ body {
 .infoContent p {
   font-size: 1.5em;
   border: 1px solid black;
+}
+
+/* Info - Results */
+
+#ruby, #php, #java, #design, #c {
+  display: none;
 }
