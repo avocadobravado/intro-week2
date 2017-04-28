@@ -13,7 +13,7 @@ $(document).ready(function() {
     var crossPlatform = parseInt($("#crossPlatform").val());
     var userInput = add(companySize, productType, gameDev, uxDesign, crossPlatform);
 
-// Prevent default to display results directly on page
+    // Allows results directly on page
     event.preventDefault();
 
     if (userInput <= 10) {
