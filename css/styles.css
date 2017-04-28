@@ -2,9 +2,21 @@
 
 /* the blue is 00b3b4
 the gray is f2f2f2
+darker gray is #4a4a4a
 */
 body {
   background-color: #fff;
+  color: #4a4a4a;
+  background-image: url("../img/bg.png");
+}
+
+a {
+  font-weight: bold;
+  color: #00b3b4;
+}
+
+h2, h3 {
+  color: #00b3b4;
 }
 
 .jumbotron, .bodyContent {
@@ -18,7 +30,13 @@ body {
 #navStyles a {
   color: #00b3b4;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
+
+.navbar-right p {
+  color: #4a4a4a;
+  }
 
 .container-fluid {
   padding-right: 10%;
@@ -31,16 +49,29 @@ body {
   padding: 2% 5%;
   margin-top: -1%;
   margin-left: 10%;
-  background-color: #f2f2f2;
+  background-color: #fafafa;
+}
+
+.jumbotron h1, h2 {
+  color: #00b3b4;
 }
 
 .jumbotron h1 {
   font-size: 13em;
   text-align: center;
+  text-shadow: 1px 1px 1px #9a9a9a;
   border: 1px solid black;
 }
 
+.jumbotron p {
+  font-size: 1.4em;
+}
+
 .leftJumbotron {
+  border: 1px solid black;
+}
+
+.rightJumbotron {
   border: 1px solid black;
 }
 
