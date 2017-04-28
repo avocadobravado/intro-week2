@@ -16,17 +16,17 @@ $(document).ready(function() {
 // Prevent default to display results directly on page
     event.preventDefault();
 
-    if (userInput < 9) {
+    if (userInput <= 10) {
       $("#initial-showing").hide();
       $("#frontEnd").fadeIn(1000);
       console.log(userInput);
     }
-    else if (userInput === 10 && 11 && 12) {
+    else if (userInput === 11 || userInput <= 13) {
       $("#initial-showing").hide();
       $("#mobileDev").fadeIn(1000);
       console.log(userInput);
     }
-    else if (userInput === 13 && 14) {
+    else if (userInput === 14 || userInput <= 16) {
       $("#initial-showing").hide();
       $("#gameDevelopment").fadeIn(1000);
       console.log(userInput);
