@@ -16,14 +16,26 @@ $(document).ready(function() {
 // Prevent default to display results directly on page
     event.preventDefault();
 
-    if (userInput < 14) {
+    if (userInput < 9) {
       $("#initial-showing").hide();
-      $("#ruby").fadeIn(1000);
-      $("#design").fadeIn(1000);
-      $("#php").fadeIn(1000);
+      $("#frontEnd").fadeIn(1000);
+      console.log(userInput);
     }
-    // else (userInput < 20) {
-    //   $("#c").show();
+    else if (userInput === 10 && 11 && 12) {
+      $("#initial-showing").hide();
+      $("#mobileDev").fadeIn(1000);
+      console.log(userInput);
+    }
+    else if (userInput === 13 && 14) {
+      $("#initial-showing").hide();
+      $("#gameDevelopment").fadeIn(1000);
+      console.log(userInput);
+    }
+    else {
+      $("#initial-showing").hide();
+      $("#backEnd").fadeIn(1000);
+      console.log(userInput);
+    }
   });
 });
 
