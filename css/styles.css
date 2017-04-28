@@ -1,10 +1,72 @@
 /* Global */
 
+body {
+  background-color: gray;
+}
+
+.jumbotron, .bodyContent {
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #c0c0c0;
+}
 
 /* Nav */
 
+#navStyles a {
+  color: red;
+}
+
+.container-fluid {
+  padding-right: 10%;
+  padding-left: 10%;
+}
 
 /* Jumbotron */
+
+.jumbotron {
+  padding: 2% 5%;
+  margin-top: -1%;
+  margin-left: 10%;
+}
+
 .jumbotron h1 {
   font-size: 15em;
+}
+
+.leftJumbotron {
+  text-align: left;
+}
+
+/* Form & Info */
+
+.formContent, .infoContent {
+  padding: 1% 2%;
+}
+
+.bodyContent {
+    background-color: white;
+    margin-bottom: 3%;
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+
+/* Form - Left column */
+
+.form-group {
+  border: 1px solid black;
+}
+
+.formContent {
+  border: 1px solid black;
+}
+
+/* Info section - Right column, content that initially displays */
+
+.infoContent {
+  border: 1px solid black;
+}
+
+.infoContent p {
+  font-size: 1.5em;
+  border: 1px solid black;
 }
