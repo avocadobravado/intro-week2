@@ -39,7 +39,7 @@
       </div> <!-- Container close -->
     </div> <!-- Jumbotron close -->
     <form id="survey">
-      <div class="container bodyContent">
+      <div class="container bodyContent" id="surveyOptions">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12 formContent">
             <h2>Which track is best for you?</h2>
@@ -49,14 +49,14 @@
             </div><!--Form group close-->
             <div class="form-group">
               <label>Do you want to work for a start up or small company?</label>
-              <select class="form-control" id="questionOne" required>
+              <select class="form-control" id="companySize" required>
                 <option value="1">Yes!</option>
                 <option value="5">No thanks</option>
               </select>
             </div><!--Question 1 close-->
             <div class="form-group">
               <label>What are you most interested in building?</label>
-              <select class="form-control" id="questionTwo" required>
+              <select class="form-control" id="productType" required>
                 <option value="1">Web sites and web applications</option>
                 <option value="3">Mobile apps</option>
                 <option value="5">Enterprise software</option>
@@ -64,7 +64,7 @@
             </div><!--Question 2 close-->
             <div class="form-group">
               <label for="sel1">Are you interested in video game development?</label>
-              <select class="form-control" id="questionThree" required>
+              <select class="form-control" id="gameDev" required>
                 <option value="5">Yes</option>
                 <option value="1">Nah</option>
                 <option value="3">Not sure, I just want to learn how to code first</option>
@@ -72,14 +72,14 @@
             </div><!--Question 3 close-->
             <div class="form-group">
               <label for="sel1">Are you interested in user experience and interface design?</label>
-              <select class="form-control" id="questionFour" required>
+              <select class="form-control" id="uxDesign" required>
                 <option value="1">Yes</option>
                 <option value="5">No</option>
               </select>
             </div><!--Question 4 close-->
             <div class="form-group">
               <label for="sel1">Do you want to build desktop software both for Windows and Mac?</label>
-              <select class="form-control" id="questionFive" required>
+              <select class="form-control" id="crossPlatform" required>
                 <option value="5">Yes</option>
                 <option value="1">No</option>
                 <option value="3">No preference</option>
